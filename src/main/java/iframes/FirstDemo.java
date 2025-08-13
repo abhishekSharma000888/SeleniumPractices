@@ -18,7 +18,7 @@ public class FirstDemo {
 
         String actualText = driver.findElement(By.id("sampleHeading")).getText();
         System.out.println("Actual text: " + actualText);
-        
+
 
         String expectedText = "This is a sample page";
 
